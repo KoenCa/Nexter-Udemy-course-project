@@ -43,9 +43,4 @@ body {
         full-start] minmax(6rem, 1fr) // Take up remaining space
         [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] // 1140px / 8 columns
         minmax(6rem, 1fr) [full-end]; // Take up remaining space
-
-    & > * {
-        padding: 40px;
-        font-size: 3rem;
-    }
 }
